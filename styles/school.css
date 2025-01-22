@@ -8,3 +8,448 @@
   font-weight: 400;
   font-style: normal;
 }
+body{
+  max-width: 85%;
+  margin:0 auto;
+}
+/* navbar start */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo-image{
+  width: 55px;
+  height: 55px;
+}
+.logo-title{
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.nav-items{
+  display: flex;
+  gap: 50px;
+  font-size: 1.2rem;
+  list-style: none;
+}
+.nav-items li a{
+  text-decoration: none;
+}
+.orange{
+  color: rgb(254,163,1);
+}
+.skyblue{
+  color: rgb(1,172,253);
+}
+.green{
+  color: rgb(5,212,223);
+}
+.blue{
+  color: rgb(93,88,239);
+}
+.btn-primary{
+  background-color: rgb(254,163,1);
+  border-radius: 12px;
+  color: white;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: 197px;
+}
+
+/* boy section start */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.boy>h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.boy>p{
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.enroll-button{
+  background-color: rgb(17,17,17);
+  margin: 20px 0;
+  border-radius: 12px;
+  color: white;
+}
+/* main style */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* Main section Design Start  */
+a {
+  text-decoration: none;
+}
+
+
+/* Curriculum Section  */
+
+.curriculum-section{
+  border-top: 3px dashed rgb(230, 230, 230);
+  border-bottom: 3px dashed rgb(230, 230, 230);
+  background: url("./assets/bg.png");
+  padding: 60px 0 60px 0;
+}
+
+.curriculum-card-container{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.curriculum-title {
+text-align: center;
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+}
+.story-title{
+text-align: center;
+font-size: 80px;
+font-weight: 700;
+line-height: 57px ;
+
+}
+
+.curriculum-card-container{
+  max-width: 1160px;
+  margin: 80px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.curriculum-card{
+  padding: 50px 40px;
+  max-width: 320px;
+  text-align: center;
+}
+
+.cardcolor1{
+  border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.cardcolor2{
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.cardcolor3{
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card-title{
+  margin-top: 32px;
+  font-size: 24.52px;
+font-weight: 700;
+line-height: 30.65px;
+font-size: 24.52px;
+font-weight: 700;
+line-height: 30.65px;
+}
+
+.card-description{
+  margin: 32px 0;
+  font-family: Raleway;
+  font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+}
+
+.cardcolor1 a{
+  font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+color: var(--Sky-Blue);
+}
+
+.cardcolor2 a{
+  font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+color: orange;
+}
+
+.cardcolor3 a{
+  font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+color: var(--Purple);
+}
+
+.arrow-btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.arrow-btn{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--Orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btn i{
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 24px;
+  color: var(--white);
+}
+
+/* Story Section design  */
+.story-section{
+  background: url("./assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  padding: 60px 0 60px 0;
+}
+
+.story-title{
+  margin-bottom: 80px;
+}
+
+.story-card-container{
+  max-width: 1160px;
+  margin: 0 auto;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+.story-card-big{
+  grid-row: span 2;
+  border-radius: 16px;
+  background-color: var(--white);
+}
+
+.story-card{
+  border-radius: 16px;
+background: var(--white);
+}
+
+.story-content{
+  padding: 0 35px 35px 35px;
+}
+
+.story-card-container div img{
+  border-radius: 16px 16px 0px 0px;
+}
+
+.story-title-big{
+  font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+color: var(--Black);
+margin-bottom:50px ;
+}
+
+.story-description{
+  font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+color: var(--whiteBlack);
+
+}
+
+
+.story-title{
+  font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+color: var(--Black);
+padding: 25px;
+
+}
+
+.story-btn-container{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date{
+  position: relative;
+  font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+color: var(--white);
+border-radius: 47.93px;
+background: rgb(60, 216, 232);
+padding: 15px 18px;
+top: -19px;
+left: 35px;
+}
+
+.small{
+ background: var(--DateColorCard);
+}
+.big{
+  background: var(--Purple);
+}
+
+/* Main section Design end  */
+
+
+/* Footer section start  */
+:root {
+  --white: #f7f7f7;
+  --Sky-Blue: #01acfd;
+  --Orange: #fea301;
+  --Black: #111111;
+  --Blac2: #171717;
+  --Purple: rgb(93, 88, 239);
+  --whiteBlack: rgb(102,102,102);
+  --DateColorCard: rgb(149, 178, 38);
+}
+.footerSection{
+  background-color: var(--Sky-Blue);
+}
+
+.footerContent{
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 120px 0;
+  justify-items: center;
+}
+.footerlogoTitle img{
+  max-width: 80px;
+}
+.footerlogoTitle{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.footerlogoTitle h1{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.fstPart p{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.scndPart{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+}
+
+.scndPart ul a li{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+list-style: none;
+margin-top: 20px;
+}
+
+.thrdPart h2{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.footerImgContainer{
+  margin-top: 35px;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+/* Footer section End  */
+
+
+
+/* footer styles */
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 20px;
+}
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px){
+  .navbar
+  .logo-image
+  .logo-title
+  .nav-items
+  .curriculum         
+  {
+    flex-direction: column;
+  }
+  
+}
+
+
+ /*medium size device  */
+ @media screen and(min-width: 576px) and (max-width: 992px) {
+  .navbar
+  .logo-image
+  .logo-title
+  .nav-items{
+      flex-direction: column;
+  }
+  /* Style for small device */
+@media screen and (max-width: 576px) {
+
+  /* system design */
+  .btn-secodary{
+    padding: 6px 24px 6px 24px;
+    font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+  }
